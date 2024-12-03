@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", serif;
+    box-sizing: border-box;
+}
+.body_font{
+    font-family: "Poppins", serif;
+}
+.head_font{
+    font-family: "Questrial", serif;
+}
+.navbar_img{
+    width: 150px;
+}
+.main___button{
+    padding: 10px 25px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid black;
+    margin-top: 15px;
+    outline: none;
+    transition: 0.5s ease-in-out;
+}
+.main___button:hover{
+    background-color: white;
+    color: black;
+}
+.hero_section{
+    min-height: 65vh;
+    display: flex;
+    background-color: rgb(228, 228, 228);
+    justify-content: center;
+    align-items: center;
+}
+.hero_section .left_section h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.hero_section .left_section p{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.hero_section .right_section form{
+    background-color: rgba(197, 197, 197, 0.842);
+    padding: 25px 15px;
+    border-radius: 5px;
+}
+.hero_section .right_section form input, .hero_section .right_section form textarea{
+    border: 1px solid rgba(219, 219, 219, 0.808);
+    background-color: white;
+    color: white;
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.hero_section .right_section form input:focus, .hero_section .right_section form textarea:focus{
+    border: 1px solid rgb(112, 112, 112);
+    outline: none;
+}
+.hero_section .right_section textarea {
+    margin-bottom: 0px;
+    min-height: 200px;
+}
+.hero_section .right_section button{
+    width: 100%;
+}
+
+
+
+
+
+.our_clients .clients-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 20px 0;
+  }
+
+  .our_clients  .clients-row {
+    display: flex;
+    white-space: nowrap;
+    gap: 20px;
+    animation-timing-function: linear;
+  }
+
+  .our_clients .clients-row:nth-child(1) {
+    animation: scroll-left 10s linear infinite;
+  }
+
+  .our_clients .clients-row:nth-child(2) {
+    animation: scroll-right 10s linear infinite;
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes scroll-right {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  .our_clients .client-item {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    border-radius: 10px;
+    font-size: 14px;
+  }
