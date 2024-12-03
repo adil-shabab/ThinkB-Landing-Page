@@ -128,3 +128,48 @@
   width: 180px;
   margin-bottom: 25px;
 }
+
+
+
+
+.our_services h3{
+  font-size: 29px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.our_services .description{
+  width: 55%;
+  text-align: center;
+  margin: auto;
+}
+.our_services .box_service{
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;  
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 15px;
+}
+.our_services .box_service .img{
+  overflow: hidden !important;
+  border-radius: 8px;
+}
+.our_services .box_service img{
+  width: 100%;
+  border-radius: 8px;
+  transition: 0.5s ease;
+  height: 250px;
+  object-fit: cover;
+}
+.our_services .box_service:hover img{
+  scale: 1.1;
+}
+.our_services .box_service h5{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.our_services .box_service p{
+  font-size: 15px;
+  margin-bottom: 0px;
+}
