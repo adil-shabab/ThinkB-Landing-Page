@@ -395,3 +395,102 @@ padding: 20px;
   width: 90%;
   font-size: 15px;
 }
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  .navbar_img{
+    width: 120px;
+  }
+  .nav__btn{
+    padding: 8px 20px;
+  }
+  .hero_section .left_section h1{
+    font-size: 34px;
+  }
+  .hero_section .right_section form{
+    margin-top: 40px;
+  }
+  .hero_section .left_section p{
+    margin-bottom: 0;
+  }
+  .our_clients {
+    margin: 80px 0px 45px;
+}
+.counter-section .spen {
+  font-size: 11px;
+}
+.our_clients h3 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 26px;
+}
+.our_services h3 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.our_services .description {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.counter-section .spen h5 {
+  font-size: 22px;
+}
+.our-portofilo h4 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: "Questrial", serif;
+  padding: 10px;
+}
+.desc____text {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+.customer-review h5 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: "Questrial", serif;
+  padding: 10px;
+}
+.our-portofilo-card .card {
+  padding: 12px;
+  min-height: 30px;
+}
+.h5, h5 {
+  font-size: 17px;
+  
+}
+.main-butn {
+  padding: 10px 25px;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid black;
+  margin-top: 6px;
+  outline: none;
+  transition: 0.5s ease-in-out;
+}
+.hero_section {
+  min-height: 65vh;
+  padding: 50px 3px;
+  display: flex;
+  background-color: rgb(228, 228, 228);
+  justify-content: center;
+  align-items: center;
+}
+.counter-section .spen {
+  font-size: 11px;
+  padding: 15px;
+}
+}
