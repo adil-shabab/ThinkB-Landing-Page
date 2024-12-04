@@ -298,3 +298,81 @@ font-size: 15px;
   font-size: 15px;
   margin-bottom: 0px;
 }
+
+
+
+
+.foter-section-main{
+  background-color: rgba(203, 203, 203, 0.568);
+  padding: 70px 0px;
+  margin-top: 80px;
+}
+.social-icon {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  background-color: #3b5998; /* Default Facebook color */
+  color: white;
+  margin-bottom: 5px;
+}
+
+.social-icon div {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.facebook {
+  background-color: #3b5998; /* Facebook blue */
+}
+
+.twitter {
+  background-color: #1da1f2; /* Twitter blue */
+}
+
+.instagram {
+  background-color: #e1306c; /* Instagram pinkish */
+}
+
+.linkedin {
+  background-color: #0077b5; /* LinkedIn blue */
+}
+
+.social-icon i {
+  vertical-align: middle;
+}
+
+
+
+.main-icon{
+  display: flex;
+  gap: 20px;
+
+}
+.foter-section-main .icon-image-main img{
+  padding-bottom: 20px;
+
+}
+.foter-section-main .links-main{
+  padding-top: 30px;
+  justify-content: center;
+}
+.foter-section-main .links-main p{
+  margin-bottom: 3px;
+}
+
+.foter-section-main .links-main h5{
+  margin-bottom: 20px;
+  
+}
+.foter-section-main .main-icon{
+justify-content: center;
+padding: 20px;
+}
+.foter-section-main .links-main a{
+  color: black;
+  text-decoration: none;
+}
+.foter-section-main .links-main a:hover{
+  text-decoration: underline;
+}
