@@ -304,7 +304,7 @@ font-size: 15px;
 
 .foter-section-main{
   background-color: rgba(203, 203, 203, 0.568);
-  padding: 70px 0px;
+  padding: 40px 0px 0px ;
   margin-top: 80px;
 }
 .social-icon {
@@ -344,26 +344,43 @@ font-size: 15px;
 
 
 
-.main-icon{
+.footer___bottom{
+  padding: 25px 0px 10px;
+  margin-top: 35px;
+  border-top: 1px solid rgb(204, 204, 204);
   display: flex;
-  gap: 20px;
-
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
 }
-.foter-section-main .icon-image-main img{
-  padding-bottom: 20px;
-
+.icons___flex{
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 15px;
+}
+.icons___flex i{
+  font-size: 25px;
 }
 .foter-section-main .links-main{
-  padding-top: 30px;
+  margin-top: 30px;
   justify-content: center;
 }
 .foter-section-main .links-main p{
-  margin-bottom: 3px;
+  margin-bottom: 6px;
+  font-size: 16px;
 }
 
 .foter-section-main .links-main h5{
   margin-bottom: 20px;
-  
+  font-size: 23px;
+  font-weight: 600;
+}
+.foter-section-main .links-main a{
+  text-decoration: none;
+}
+.foter-section-main .links-main a:hover{
+  text-decoration: none;
 }
 .foter-section-main .main-icon{
 justify-content: center;
@@ -373,6 +390,8 @@ padding: 20px;
   color: black;
   text-decoration: none;
 }
-.foter-section-main .links-main a:hover{
-  text-decoration: underline;
+
+.foter-section-main .footer_description{
+  width: 90%;
+  font-size: 15px;
 }
