@@ -15,10 +15,26 @@ document.addEventListener("DOMContentLoaded", function () {
         dots: true,              // Enable navigation dots
         infinite: true,          // Infinite loop
         speed: 500,              // Transition speed
-        slidesToShow: 3,         // Show 1 slide at a time
+        slidesToShow: 3,         // Show 3 slides at a time (default)
         slidesToScroll: 1,       // Scroll 1 slide at a time
         autoplay: true,          // Enable autoplay
         autoplaySpeed: 3000,     // Autoplay speed
-        arrows: false            // Disable navigation arrows
+        arrows: false,           // Disable navigation arrows
+        responsive: [
+            {
+                breakpoint: 1024, // For devices smaller than 1024px
+                settings: {
+                    slidesToShow: 2, // Show 2 slides at a time
+                    slidesToScroll: 1 // Scroll 1 slide at a time
+                }
+            },
+            {
+                breakpoint: 768, // For devices smaller than 768px
+                settings: {
+                    slidesToShow: 1, // Show 1 slide at a time
+                    slidesToScroll: 1 // Scroll 1 slide at a time
+                }
+            }
+        ]
     });
 });
