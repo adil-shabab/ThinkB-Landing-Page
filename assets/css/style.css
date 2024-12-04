@@ -18,7 +18,9 @@
 }
 .main___button{
     padding: 10px 25px;
-    background-color: black;
+    
+    background: rgb(255,117,88);
+        background: linear-gradient(90deg, rgba(255,117,88,1) 8%, rgba(126,124,255,1) 71%);
     border-radius: 5px;
     color: white;
     border: 1px solid black;
@@ -34,7 +36,8 @@
     min-height: 65vh;
     padding: 50px 0px;
     display: flex;
-    background-color: rgb(228, 228, 228);
+    background: url('../img/bacgurond-img/Background-01.jpg');
+ 
     justify-content: center;
     align-items: center;
 }
@@ -138,7 +141,9 @@
   margin: auto;
 }
 
-
+.our_services{
+  background: url('../img/bacgurond-img/Background-02.jpg');
+}
 .our_services h3{
   font-size: 29px;
   text-align: center;
@@ -506,5 +511,4 @@ padding: 20px;
   text-align: center;
   margin: 10px;
 }
-
 }
