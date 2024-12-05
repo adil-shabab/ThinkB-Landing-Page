@@ -12,6 +12,10 @@
 }
 .head_font{
     font-family: "Questrial", serif;
+    background: linear-gradient(90deg, rgba(255,117,88,1) 8%, rgba(126,124,255,1) 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 .navbar_img{
     width: 150px;
@@ -20,7 +24,7 @@
     padding: 10px 25px;
     
     background: rgb(255,117,88);
-        background: linear-gradient(90deg, rgba(255,117,88,1) 8%, rgba(126,124,255,1) 71%);
+    background: linear-gradient(90deg, rgba(255,117,88,1) 8%, rgba(126,124,255,1) 71%);
     border-radius: 5px;
     color: white;
     border: 1px solid black;
@@ -36,10 +40,21 @@
     min-height: 65vh;
     padding: 50px 0px;
     display: flex;
-    background: url('../img/bacgurond-img/Background-01.jpg');
  
     justify-content: center;
     align-items: center;
+}
+.hero_section .main-section{
+  background: url('../img/bacgurond-img/Background-01.jpg');
+  
+
+}
+.left_section {
+  padding: 50px;
+}
+.right_section{
+  padding: 50px;
+  box-sizing: border-box;
 }
 .hero_section .left_section h1{
     font-size: 45px;
@@ -48,6 +63,7 @@
 .hero_section .left_section p{
     margin-top: 15px;
     font-size: 16px;
+    color: white;
 }
 .hero_section .right_section form{
     background-color: rgba(197, 197, 197, 0.842);
@@ -142,7 +158,12 @@
 }
 
 .our_services{
+} 
+
+.main-contain{
   background: url('../img/bacgurond-img/Background-02.jpg');
+  
+
 }
 .our_services h3{
   font-size: 29px;
@@ -154,6 +175,7 @@
   width: 55%;
   text-align: center;
   margin: auto;
+  color: white;
 }
 .our_services .box_service{
   width: 100%;
@@ -187,8 +209,10 @@
 }
 .counter-section {
   min-height: 100%;
-  background-color: black;
-  color: white;
+  background: linear-gradient(90deg, rgba(255,117,88,1) 8%, rgba(126,124,255,1) 71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
   align-items: center;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -206,6 +230,9 @@
 }
 .counter-section .spen h5{
   font-size: 35px;
+  background: linear-gradient(90deg, rgba(255,117,88,1) 8%, rgba(126,124,255,1) 71%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .counter-section .spen{
 font-size: 15px;
@@ -220,6 +247,9 @@ font-size: 15px;
 .our-portofilo-card .img-card{
    border: 30px;
  
+}
+.our-portofilo-card .card{
+  background-color: #666666;
 }
 .our-portofilo{
   margin: 40px 0px;
@@ -253,6 +283,10 @@ font-size: 15px;
   margin-bottom: 10px;
   font-family: "Questrial", serif;
   padding: 10px;
+  background: linear-gradient(90deg, rgba(255,117,88,1) 8%, rgba(126,124,255,1) 71%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
 .custmer-para{
   font-size: 18px;
@@ -308,7 +342,7 @@ font-size: 15px;
 
 
 .foter-section-main{
-  background-color: rgba(203, 203, 203, 0.568);
+  background-color: ur;
   padding: 40px 0px 0px ;
   margin-top: 80px;
 }
@@ -367,9 +401,16 @@ font-size: 15px;
 .icons___flex i{
   font-size: 25px;
 }
+.foter-section-main{
+  background: url('../img/bacgurond-img/Background-02.jpg');
+  color: white;
+}
+
+ 
 .foter-section-main .links-main{
   margin-top: 30px;
   justify-content: center;
+  
 }
 .foter-section-main .links-main p{
   margin-bottom: 6px;
@@ -500,7 +541,7 @@ padding: 20px;
 }
 .counter-section {
   min-height: 100%;
-  background-color: black;
+  
   color: white;
   align-items: center;
   margin-top: 15px;
