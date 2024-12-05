@@ -55,6 +55,10 @@
 .right_section{
   padding: 50px;
   box-sizing: border-box;
+  
+}
+.hero_section .left_section{
+  background-color: ;
 }
 .hero_section .left_section h1{
     font-size: 45px;
@@ -158,18 +162,20 @@
 }
 
 .our_services{
+  background: url('../img/bacgurond-img/Background-02.jpg');
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 30px;
 } 
 
-.main-contain{
-  background: url('../img/bacgurond-img/Background-02.jpg');
-  
-
-}
 .our_services h3{
   font-size: 29px;
   text-align: center;
   font-weight: 700;
   margin-bottom: 10px;
+  padding: 10px;
 }
 .our_services .description{
   width: 55%;
@@ -183,6 +189,8 @@
   border-radius: 12px;
   cursor: pointer;
   padding: 15px;
+  background-color: #666666;
+  width: 50%;
 }
 .our_services .box_service .img{
   overflow: hidden !important;
@@ -415,6 +423,7 @@ font-size: 15px;
 .foter-section-main .links-main p{
   margin-bottom: 6px;
   font-size: 16px;
+  color: white;
 }
 
 .foter-section-main .links-main h5{
@@ -424,6 +433,7 @@ font-size: 15px;
 }
 .foter-section-main .links-main a{
   text-decoration: none;
+  color: white;
 }
 .foter-section-main .links-main a:hover{
   text-decoration: none;
@@ -433,7 +443,7 @@ justify-content: center;
 padding: 20px;
 }
 .foter-section-main .links-main a{
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -458,6 +468,7 @@ padding: 20px;
   }
   .hero_section .right_section form{
     margin-top: 40px;
+    
   }
   .hero_section .left_section p{
     margin-bottom: 0;
