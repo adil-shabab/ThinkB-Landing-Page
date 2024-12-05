@@ -52,7 +52,7 @@
 .right_section .submit{
   background-color: black;
   color: white;
-  border-radius: 20px;
+  border-radius: 8px;
   width: 30px;
 }
 .hero_section{
@@ -89,9 +89,9 @@
     color: white;
 }
 .hero_section .right_section form{
-    background-color: #e6e7e6;
-    padding: 25px 15px;
-    border-radius: 5px;
+  background-color: #e6e7e6;
+  padding: 9px 12px;
+  border-radius: 7px;
 }
 .hero_section .right_section form input, .hero_section .right_section form textarea{
     border: 1px solid rgba(219, 219, 219, 0.808);
@@ -214,6 +214,36 @@
 .customer-review-slider{
   justify-content: center;
 }
+.customer-review-card .text h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.customer-review-card .text .small-text {
+  font-size: 14px;
+  color: #888;
+  margin-top: 5px;
+}
+
+.img___flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customer-review-card {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.customer-review-card img {
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 
 .our_services h3{
   font-size: 29px;
@@ -235,14 +265,12 @@
 }
 .porto{
   font-family: "Questrial", serif;
-  background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-  font-size: 50px;
-  padding: 30px;
-  border-bottom: 1px solid #b6b6b6;
-  padding: 30px;
+    background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    padding-top: 40px;
+  text-align: center;
 }
 .our_services .box-sizing{
   width: 100%;
@@ -354,16 +382,15 @@
   padding-top: 20px;
 }
 .customer-review h5{
-  font-size: 29px;
-  text-align: center;
-  font-weight: 700;
-  margin-bottom: 10px;
   font-family: "Questrial", serif;
-  padding: 10px;
-  background: linear-gradient(90deg, rgba(255,117,88,1) 8%, rgba(126,124,255,1) 71%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-
+    background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
 }
 .custmer-para{
   font-size: 18px;
@@ -416,7 +443,7 @@
 .customer-review-card h1{
   color: white;
   font-size: 20px;
-  padding: 10px;
+  padding: 5px;
 }
 .customer-review-card{
   color: white;
