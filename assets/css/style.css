@@ -121,7 +121,8 @@
 .our_clients{
   margin: 80px 0px;
 }
-.our_clients h3{
+
+.h3{
   font-size: 29px;
   text-align: center;
   font-weight: 700;
@@ -206,10 +207,24 @@
   text-align: center;
   padding-bottom: 30px;
 } 
-.box-sizing h6{
+.box-sizing h6 {
   color: white;
-    border-bottom: 2px solid white; /* width, style, and color */
-  
+  border-bottom: 1px solid #5a5a5a;
+  padding: 24px;
+  font-size: 24px;
+  width: fit-content;
+}
+.main-box-style{
+  --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex
+;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+    margin: 31px;
+    justify-content: center;
 }
 .customer-review-slider{
   justify-content: center;
@@ -239,7 +254,7 @@
 
 .customer-review-card img {
   width: 100px; 
-  height: 100px;
+  height: 50px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -272,15 +287,18 @@
     padding-top: 40px;
   text-align: center;
 }
-.our_services .box-sizing{
+.our_services .box-sizing {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 5px;
   cursor: pointer;
- 
   background-color: #232323;
- margin: 10px;
- height: 250px;
-
+  margin: 10px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: flex-start;
 }
 .our_services .service .img{
   overflow: hidden !important;
@@ -400,16 +418,14 @@
   font-family: "Questrial", serif;
   
 }
-.clint-card{
-  height: 400px;
+.clint-card {
+  height: 374px;
   background-color: black;
- 
-    flex: 0 0 auto;
-    width: 31.333333%;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-  
+  flex: 0 0 auto;
+  width: 32.333333%;
+  padding: 0px;
+  margin: 6px;
+  border-radius: 5px;
 }
 .customer-review{
   background-color:  #f4f5f6;
@@ -431,11 +447,11 @@
   display: flex
 ;
   margin-bottom: 15px;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-start;
-  padding-right: 30px;
+  padding-right: 5px;
 }
  
  
@@ -646,6 +662,10 @@ padding: 20px;
   width: 100%;
   text-align: center;
   margin: auto;
+  
+}
+.clints-parap{
+  padding-bottom: 42px;
 }
 .customer-review h5 {
   font-size: 25px;
