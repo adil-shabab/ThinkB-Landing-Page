@@ -634,13 +634,26 @@ padding: 20px;
   .navbar_img{
     width: 120px;
   }
-  .nav__btn{
+  .nav__btn {
     padding: 8px 20px;
+    border-radius: 30px;
+}
   }
   .hero_section .left_section h1 {
     font-size: 24px;
 }
-  }
+.main___button {
+  padding: 10px 25px;
+  background: rgb(255, 117, 88);
+  background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
+  border-radius: 5px;
+  color: white;
+  border: 1px solid black;
+  margin-top: 15px;
+  outline: none;
+  transition: 0.5s ease-in-out;
+  border-radius: 20px;
+}
   .hero_section .right_section form {
     margin-top: 0px;
 }
