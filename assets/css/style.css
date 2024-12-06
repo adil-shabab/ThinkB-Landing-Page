@@ -140,6 +140,23 @@
 
   
 }
+.our_clients-head{
+  font-size: 29px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 35px;
+  font-size: 50px;
+    font-family: "Questrial", serif;
+    background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 30px;
+    border-bottom: 1px solid #b6b6b6; /* width, style, and color */
+    padding: 30px;
+
+}
 .our_clients .logo-slider {
   position: relative;
   display: flex;
@@ -183,6 +200,7 @@
 .our_clients  img {
   width: 180px;
   margin-bottom: 25px;
+  object-fit: contain;
 }
 
 
@@ -217,7 +235,7 @@
 .main-box-style{
   --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
-    display: flex
+    display: flex;
 ;
     flex-wrap: wrap;
     margin-top: calc(-1* var(--bs-gutter-y));
@@ -294,11 +312,13 @@
   background-color: #232323;
   margin: 10px;
   height: 250px;
-  display: flex;
+  display: flex
+;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  align-content: flex-start;
+  align-content: center;
 }
 .our_services .service .img{
   overflow: hidden !important;
