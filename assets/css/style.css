@@ -729,10 +729,10 @@ padding: 20px;
   width: 100%;
   text-align: center;
   margin: auto;
-  
+  padding-top: 15px;
 }
-.clints-parap{
-  padding-bottom: 42px;
+.clints-parap {
+  padding-bottom: 8px;
 }
 .customer-review h5 {
   font-size: 25px;
