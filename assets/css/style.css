@@ -48,6 +48,7 @@
 .main___button:hover{
     background-color: white;
     color: black;
+    width: 100px;
 }
 .right_section .submit{
   background-color: black;
@@ -114,12 +115,7 @@
     width: 100%;
     padding: 8px;
 }
-
-
-
-
-
-.our_clients{
+.our_clients {
   margin: 80px 0px;
 }
 
@@ -141,7 +137,7 @@
 
   
 }
-.our_clients-head{
+.our_clients-head {
   font-size: 29px;
   text-align: center;
   font-weight: 700;
@@ -213,7 +209,7 @@
   width: 55%;
   text-align: center;
   margin: auto;
-  padding-bottom: 30px;
+  padding-bottom: 39px;
 }
 .review{
   height: 50vh;
@@ -240,8 +236,7 @@
 .main-box-style{
   --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
-    display: flex;
-;
+    display: flex;;
     flex-wrap: wrap;
     margin-top: calc(-1* var(--bs-gutter-y));
     margin-right: calc(-.5* var(--bs-gutter-x));
@@ -322,8 +317,10 @@
   -webkit-text-fill-color: transparent;
   font-weight: bold;
   padding-top: 40px;
-  padding-top: 40px;
+  padding-top: 18px;
+  padding-bottom: 20px;
   text-align: center;
+  margin-bottom: 116px;
 }
 .faq-scetion h1{
   font-family: "Questrial", serif;
@@ -814,7 +811,7 @@ padding: 20px;
     margin: auto;
     padding-bottom: 11px;
   } 
-  .heading___viewgit h4 {
+  .heading___view h4 {
     font-size: calc(1.25rem + .3vw);
     margin-top: 20px;
 }
