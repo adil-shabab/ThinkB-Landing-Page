@@ -83,6 +83,10 @@
   box-sizing: border-box;
   
 }
+.box-sizing img{
+  vertical-align: middle;
+  margin-top: 20px;
+}
 .hero_section .left_section{
 
 }
@@ -739,11 +743,24 @@ padding: 20px;
     font-size: calc(1.10rem + .3vw);
     margin-top: 20px;
   }
+  .clint-headin {
+    font-family: "Questrial", serif;
+    background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-top: 18px;
+    padding-top: 47px;
+    padding-bottom: 7px;
+    text-align: center;
+    margin-bottom: 116px;
+}
   .our_services .description {
     width: 100%;
     font-size: 16px;
     margin: auto;
-    padding: 8px;
+  
   }
   .faq-scetion p {
     align-items: center;
@@ -838,7 +855,7 @@ padding: 20px;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
     margin-bottom: 10px;
-    margin-left: 50px;
+   
   }
   .faq-scetion p {
     align-items: center;
@@ -848,6 +865,7 @@ padding: 20px;
   .heading___view h4 {
     font-size: calc(1.25rem + .3vw);
     margin-top: 20px;
+    font-family: "Questrial", serif;
 }
   .our-portofilo h4 {
     font-size: 25px;
