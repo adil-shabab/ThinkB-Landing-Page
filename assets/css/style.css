@@ -48,7 +48,13 @@
 .main___button:hover{
     background-color: white;
     color: black;
-    width: 100px;
+ 
+}
+.clint-box{
+  background-color: #4f4f4f;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
 }
 .right_section .submit{
   background-color: black;
@@ -702,13 +708,18 @@ padding: 20px;
   .first_section h3{
     font-size: 23px;
   }
+  .foter-section-main {
+    background-color: ur;
+    padding: 20px 16px 0px;
+    /* margin-top: 80px; */
+}
   .our_services .our {
     font-family: "Questrial", serif;
     background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    padding-top: 18px;
+    padding-top: 25px;
     font-size: 24px;
   }
   .our_services h3 {
@@ -747,7 +758,7 @@ padding: 20px;
     /* margin: 8px; */
     margin-bottom: 15px;
    }
-  .our_services .box-sizing {
+   .our_services .box-sizing {
     width: 100%;
     border-radius: 5px;
     background-color: #232323;
@@ -757,8 +768,9 @@ padding: 20px;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    margin: 8px;
-  }
+    margin-bottom: 10px;
+    /* margin: 8px; */
+}
   .review {
     height: 40vh;
     justify-content: center;
