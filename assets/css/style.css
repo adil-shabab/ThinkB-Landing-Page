@@ -346,11 +346,11 @@
   background-color: #232323;
   margin: 1px;
   height: 247px;
-  display: flex
-;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
+  margin-bottom: 20px;
 }
 .our_services .service .img{
   overflow: hidden !important;
