@@ -677,7 +677,7 @@ padding: 20px;
     border-radius: 5px;
     color: white;
     border: 1px solid black;
-    margin-top: 15px;
+    margin-top: 5px;
     outline: none;
     transition: 0.5s ease-in-out;
     border-radius: 20px;
@@ -728,12 +728,34 @@ padding: 20px;
     font-weight: 700;
     margin-bottom: 10px;
   }
+  .review {
+    /* height: 40vh; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .heading___view h4 {
+    font-size: calc(1.10rem + .3vw);
+    margin-top: 20px;
+  }
   .our_services .description {
     width: 100%;
     font-size: 16px;
     margin: auto;
     padding: 8px;
   }
+  .faq-scetion p {
+    align-items: center;
+    margin: auto;
+    padding-bottom: 11px;
+    font-size: 13px;
+  }
+  .desc____text {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+   }
   .main-box-style {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
@@ -815,7 +837,7 @@ padding: 20px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-left: 50px;
   }
   .faq-scetion p {
@@ -836,13 +858,13 @@ padding: 20px;
     padding: 10px;
   }
   .desc____text {
-    width: 100%;
+
     text-align: center;
     margin: auto;
-    padding-top: 15px;
+   
   }
   .clints-parap {
-    padding-bottom: 8px;
+    padding-bottom: 28px;
   }
   .customer-review h5 {
     font-size: 25px;
