@@ -697,6 +697,11 @@ padding: 20px;
   .counter-section .spen {
     font-size: 11px;
   }
+  .our_clients img {
+    width: 109px;
+    margin-bottom: 25px;
+    object-fit: contain;
+  }
   .first_section h3{
     font-size: 23px;
   }
@@ -721,14 +726,37 @@ padding: 20px;
     margin: auto;
     padding: 8px;
   }
+  .main-box-style {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+    /* margin: 31px; */
+    justify-content: center;
+   }
+   .our_services .box-sizing {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #232323;
+    margin: 1px;
+    /* height: 247px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    /* margin: 8px; */
+    margin-bottom: 15px;
+   }
   .our_services .box-sizing {
     width: 100%;
     border-radius: 5px;
     background-color: #232323;
     margin: 1px;
     height: 247px;
-    display: flex
-  ;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
@@ -752,9 +780,44 @@ padding: 20px;
     text-align: center;
     font-size: 24px;
   }
+  .box-sizing h6 {
+    color: white;
+    border-bottom: 1px solid #5a5a5a;
+  
+    font-size: 24px;
+    width: fit-content;
+    margin-top: 10px;
+    padding: 12px;
+  }
   .counter-section .spen h5 {
     font-size: 22px;
   }
+  .our_services {
+    background: url(../img/bacgurond-img/Background-02.jpg);
+    height: 10 0vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 3px;
+  }
+  .faq-scetion h1 {
+    font-family: "Questrial", serif;
+    background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+  .faq-scetion p {
+    align-items: center;
+    margin: auto;
+    padding-bottom: 11px;
+  } 
+  .heading___viewgit h4 {
+    font-size: calc(1.25rem + .3vw);
+    margin-top: 20px;
+}
   .our-portofilo h4 {
     font-size: 25px;
     text-align: center;
