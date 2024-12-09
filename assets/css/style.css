@@ -59,11 +59,20 @@
   justify-content: center;
   align-items: center;
   border-radius: 16px;
+  background-color: black;
+  color: white;
 
 }
-.call-to-sectiomn .left-section{
+
+.call-to-sectiomn .left-section {
   align-items: center;
   padding: 40px;
+}
+.left-section h5{
+  font-family: "Questrial", serif;
+    background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .main___button:hover{
     background-color: white;
