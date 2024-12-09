@@ -73,7 +73,9 @@
     background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 30px;
 }
+
 .main___button:hover{
     background-color: white;
     color: black;
@@ -179,7 +181,7 @@
 .goal-pera{
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 12px;
+  font-size: 14px;
 }
 .review-para{
   font-size: 14px;
