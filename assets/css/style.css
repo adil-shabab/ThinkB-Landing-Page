@@ -109,6 +109,7 @@
 .box-sizing img{
   vertical-align: middle;
   margin-top: 20px;
+  border-radius: 30px;
 }
 .hero_section .left_section{
 
@@ -244,6 +245,7 @@
   text-align: center;
   margin: auto;
   padding-bottom: 39px;
+  font-size: 20px;
 }
 .review{
   height: 50vh;
