@@ -765,6 +765,15 @@ padding: 20px;
   .review{
     min-height: 80vh;
   }
+  .call-to-sectiomn .left-section {
+    align-items: center;
+    padding: 25px;
+  } 
+  .align-items-start {
+    align-items: flex-start !important;
+    padding-left: 18px; 
+    
+  }
 
   .heading___view h4 {
     font-size: calc(1.10rem + .3vw);
