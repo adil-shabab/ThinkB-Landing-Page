@@ -22,13 +22,21 @@
 
 }
 .our_services .our{
-  font-family: "Questrial", serif;
-  background: linear-gradient(90deg, rgba(255,117,88,1) 8%, rgba(126,124,255,1) 71%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
- font-weight: bold;
- 
- padding-top: 40px;
+  font-size: 29px; */
+    text-align: center;
+    font-weight: 700;
+    
+    margin-bottom: -9px;
+    font-size: 45px;
+    font-family: "Questrial", serif;
+    background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 45px;
+    padding: 30px;
+    
+    padding: 30px;
 }
 .navbar_img{
     width: 150px;
@@ -45,6 +53,17 @@
     outline: none;
     transition: 0.5s ease-in-out;
 
+}
+.call-to-sectiomn .background-call{
+  background-color: #f4f5f6;
+  justify-content: center;
+  align-items: center;
+ 
+
+}
+.call-to-sectiomn .left-section{
+  align-items: center;
+  padding: 40px;
 }
 .main___button:hover{
     background-color: white;
@@ -157,13 +176,13 @@
   text-align: center;
   font-weight: 700;
   margin-bottom: 35px;
-  font-size: 50px;
+  font-size: 45px;
     font-family: "Questrial", serif;
     background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 45px;
     padding: 30px;
     border-bottom: 1px solid #b6b6b6; /* width, style, and color */
     padding: 30px;
@@ -351,15 +370,17 @@
 }
 .our_services .box-sizing {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 20px;
   background-color: #232323;
-  margin: 1px;
-  height: 247px;
-  display: flex;
+  /* margin: 1px; */
+  /* height: 247px; */
+  display: flex
+;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
+  min-height: 50vh;
 }
 .our_services .service .img{
   overflow: hidden !important;
@@ -417,6 +438,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 1000;
+  font-size: 47px;
 }
 .review p{
   font-size: 20px;
@@ -737,13 +759,10 @@ padding: 20px;
     font-weight: 700;
     margin-bottom: 10px;
   }
-  .review {
-    /* height: 40vh; */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
+  .review{
+    min-height: 80vh;
   }
+
   .heading___view h4 {
     font-size: calc(1.10rem + .3vw);
     margin-top: 20px;
@@ -816,7 +835,6 @@ padding: 20px;
     /* margin: 8px; */
 }
   .review {
-    height: 40vh;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -833,25 +851,15 @@ padding: 20px;
     text-align: center;
     font-size: 24px;
   }
+  
+ 
   .box-sizing h6 {
     color: white;
     border-bottom: 1px solid #5a5a5a;
-  
-    font-size: 24px;
+    font-size: 19px;
     width: fit-content;
-    margin-top: 10px;
-    padding: 12px;
-  }
-  .counter-section .spen h5 {
-    font-size: 22px;
-  }
-  .our_services {
-    background: url(../img/bacgurond-img/Background-02.jpg);
-    height: 10 0vh;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 3px;
+    margin-top: 14px;
+    padding: 13px;
   }
   .faq-scetion h1 {
     font-family: "Questrial", serif;
