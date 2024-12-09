@@ -41,18 +41,25 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-const toggleButton = document.getElementById('toggleButton');
-    const toggleParagraph = document.getElementById('toggleParagraph');
+const toggleButtons = document.querySelectorAll('.toggleButton');
+const toggleParagraphs = document.querySelectorAll('.toggleParagraph');
 
-    toggleButton.addEventListener('click', () => {
-      if (toggleParagraph.style.display === 'none') {
-        toggleParagraph.style.display = 'block';
-        toggleButton.textContent = '-'; // Change "+" to "-"
-      } else {
-        toggleParagraph.style.display = 'none';
-        toggleButton.textContent = '+'; // Change "-" to "+"
-      }
-    });
+toggleButtons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    // Toggle the display of the corresponding paragraph
+    const paragraph = toggleParagraphs[index];
+    const icon = button.querySelector('i');
 
+    if (paragraph.style.display === 'none') {
+      paragraph.style.display = 'block';
+      icon.classList.remove('fa-plus');
+      icon.classList.add('fa-minus');
+    } else {
+      paragraph.style.display = 'none';
+      icon.classList.remove('fa-minus');
+      icon.classList.add('fa-plus');
+    }
+  });
+});
 
 
