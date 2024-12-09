@@ -167,7 +167,14 @@
 .our_clients {
   margin: 40px 0px;
 }
-
+.goal-pera{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 12px;
+}
+.review-para{
+  font-size: 10px;
+}
 .h3{
   font-size: 29px;
   text-align: center;
@@ -458,7 +465,7 @@
   font-size: 47px;
 }
 .review p{
-  font-size: 27px;
+  font-size: 11px;
 }
 .our-portofilo-card img{
   width: 100%;
