@@ -747,6 +747,14 @@ padding: 20px;
   .counter-section .spen {
     font-size: 11px;
   }
+  .five-hander {
+    font-family: "Questrial", serif;
+    background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 1000;
+    font-size: 31px;
+  }
   .our_clients img {
     width: 109px;
     margin-bottom: 25px;
