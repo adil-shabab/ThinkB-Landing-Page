@@ -58,7 +58,7 @@
   background-color: #f4f5f6;
   justify-content: center;
   align-items: center;
- 
+  border-radius: 16px;
 
 }
 .call-to-sectiomn .left-section{
@@ -75,6 +75,10 @@
   border-radius: 20px;
   padding: 10px;
   color: white;
+}
+.p-1 {
+  padding: -3.75rem !important;
+  font-size: 12px;
 }
 .faq-scetion .pera{
   font-size: 20px;
@@ -110,6 +114,12 @@
   vertical-align: middle;
   margin-top: 20px;
   border-radius: 30px;
+}
+.box-sizing i{
+  
+  color: green;
+  font-size: 80px;
+  padding: 40px;
 }
 .hero_section .left_section{
 
@@ -772,7 +782,7 @@ padding: 20px;
   .align-items-start {
     align-items: flex-start !important;
     padding-left: 18px; 
-    
+
   }
 
   .heading___view h4 {
