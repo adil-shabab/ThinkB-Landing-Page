@@ -39,3 +39,20 @@ document.addEventListener("DOMContentLoaded", function () {
         ]
     });
 });
+
+
+const toggleButton = document.getElementById('toggleButton');
+    const toggleParagraph = document.getElementById('toggleParagraph');
+
+    toggleButton.addEventListener('click', () => {
+      if (toggleParagraph.style.display === 'none') {
+        toggleParagraph.style.display = 'block';
+        toggleButton.textContent = '-'; // Change "+" to "-"
+      } else {
+        toggleParagraph.style.display = 'none';
+        toggleButton.textContent = '+'; // Change "-" to "+"
+      }
+    });
+
+
+
