@@ -70,6 +70,9 @@
     color: black;
  
 }
+.pt-3 {
+  padding-top: 3rem !important;
+}
 .clint-box{
   background-color: #4f4f4f;
   border-radius: 20px;
