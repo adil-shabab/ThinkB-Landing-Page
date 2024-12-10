@@ -307,8 +307,8 @@
   color: white;
   border-bottom: 1px solid #5a5a5a;
   padding: 9px;
-  font-size: 28px;
-  width: fit-content;
+  font-size: 21px;
+  width: 100%;
 }
 .main-box-style{
   --bs-gutter-x: 1.5rem;
