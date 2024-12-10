@@ -72,8 +72,19 @@
     background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 30px;
+    font-size: 35px;
+    
+    margin-bottom: 12px;
 }
+.button-cal{
+ 
+    padding: 11px 34px;
+    border-radius: 9px;
+}
+.custom-paddign {
+  padding: 8px;
+}
+
 
 .main___button:hover{
     background-color: white;
@@ -193,7 +204,7 @@
   font-size: 14px;
 }
 .review h6{
-  font-size: 30px;
+  font-size: 22px;
 }
 .h3{
   font-size: 29px;
@@ -302,6 +313,7 @@
   text-align: center;
 
 } 
+
 .box-sizing h6 {
   color: white;
   border-bottom: 1px solid #5a5a5a;
@@ -364,7 +376,7 @@
  
 }
 .our_services p{
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 .our_services .description{
   width: 55%;
@@ -484,7 +496,7 @@
   font-size: 47px;
 }
 .review p{
-  font-size: 19px;
+  font-size: 16px;
 }
 .our-portofilo-card img{
   width: 100%;
@@ -911,7 +923,7 @@ padding: 20px;
   .clint-box {
     display: flex;
     align-items: flex-start; 
-    gap: 20px; 
+    gap: 0px; 
     text-align: left; 
   }
 
