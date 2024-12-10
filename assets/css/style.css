@@ -89,7 +89,7 @@
   padding: 10px;
   color: black;
 
-  min-height: 49vh;
+  min-height: 53vh;
 }
 .p-1 {
   padding: -3.75rem !important;
@@ -306,8 +306,8 @@
 .box-sizing h6 {
   color: white;
   border-bottom: 1px solid #5a5a5a;
-  padding: 21px;
-  font-size: 32px;
+  padding: 9px;
+  font-size: 28px;
   width: fit-content;
 }
 .main-box-style{
