@@ -348,7 +348,7 @@
 .box-sizing h6 {
   color: white;
   border-bottom: 1px solid #5a5a5a;
-  padding: 9px;
+  padding: 20px;
   font-size: 21px;
   width: 100%;
 }
@@ -1045,8 +1045,9 @@ padding: 20px;
   } 
   .heading___view h4 {
     font-size: calc(1.25rem + .3vw);
-    margin-top: 20px;
+    margin-top: 5px;
     font-family: "Questrial", serif;
+    font-size: 15px;
 }
   .our-portofilo h4 {
     font-size: 25px;
