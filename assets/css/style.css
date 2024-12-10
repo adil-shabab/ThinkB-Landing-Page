@@ -861,6 +861,7 @@ padding: 20px;
     width: 100%;
     font-size: 16px;
     margin: auto;
+    padding-bottom: 20px;
   
   }
   .faq-scetion p {
@@ -947,10 +948,10 @@ padding: 20px;
     color: white;
     border-bottom: 1px solid #5a5a5a;
     font-size: 19px;
-    width: fit-content;
+  
     margin-top: 14px;
     padding: 13px;
-  }
+}
   .faq-scetion h1 {
     font-family: "Questrial", serif;
     background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
