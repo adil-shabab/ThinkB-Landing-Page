@@ -88,6 +88,8 @@
   border-radius: 20px;
   padding: 10px;
   color: white;
+
+  min-height: 49vh;
 }
 .p-1 {
   padding: -3.75rem !important;
