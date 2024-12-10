@@ -161,7 +161,7 @@
 
 }
 .pt-3 {
-  padding-bottom: 53px;
+  padding-bottom: 21px;
   padding-top: 5rem !important;
 }
 .left_section {
@@ -944,6 +944,31 @@ padding: 20px;
   .background-call{
     padding: 9px;
   }
+  .logo-slider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .logos-slide {
+    display: flex;
+    animation: slide 3s linear infinite; /* Reduced duration for faster speed */
+  }
+  
+  .logos-slide img {
+    width: 150px; /* Adjust size as needed */
+    margin: 0 10px; /* Space between logos */
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); /* Move completely out of view */
+    }
+  }
+  
   .porto {
     font-family: "Questrial", serif;
     background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
@@ -960,7 +985,21 @@ padding: 20px;
     align-items: flex-start; 
     gap: 0px; 
     text-align: left; 
+    min-height: 0px;
   }
+  .left-section h5 {
+    font-family: "Questrial", serif;
+    background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 26px;
+     margin-bottom: 12px;
+  }
+  .goal-pera {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 16px;
+ }
 
   .user-img {
       width: 80px;
