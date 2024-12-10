@@ -296,12 +296,11 @@
 }
 .our_services{
   background: url('../img/bacgurond-img/Background-02.jpg');
-  height: 10
-  0vh;
+
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-bottom: 30px;
+
 } 
 .box-sizing h6 {
   color: white;
