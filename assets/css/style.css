@@ -84,10 +84,10 @@
   padding-top: 3rem !important;
 }
 .clint-box{
-  background-color: #4f4f4f;
+  background-color: #f4f5f6;
   border-radius: 20px;
   padding: 10px;
-  color: white;
+  color: black;
 
   min-height: 49vh;
 }
@@ -868,6 +868,14 @@ padding: 20px;
     /* margin: 31px; */
     justify-content: center;
    }
+   .clint-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
    .our_services .box-sizing {
     width: 100%;
