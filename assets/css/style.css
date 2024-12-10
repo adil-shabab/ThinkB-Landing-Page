@@ -10,17 +10,18 @@
 .body_font{
     font-family: "Poppins", serif;
 }   
-.head_font{
-    font-family: "Questrial", serif;
-    background: linear-gradient(90deg, rgba(255,117,88,1) 8%, rgba(126,124,255,1) 71%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-   font-weight: bold;
-   font-size: 50px;
-   padding: 4px;  
+.head_font {
+  font-family: 'Questrial', sans-serif; /* Use 'sans-serif' as a fallback */
+  background: linear-gradient(90deg, rgba(255, 117, 88, 1) 8%, rgba(126, 124, 255, 1) 71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700; /* Ensure the font supports bold or use a valid weight */
+  font-size: 50px;
+  padding: 4px;
 }
+
 .our_services .our{
-  font-size: 29px; */
+  font-size: 29px; 
     text-align: center;
     font-weight: 700;
     
@@ -98,10 +99,12 @@
   background-color: #f4f5f6;
   border-radius: 20px;
   padding: 10px;
+  padding-left: 30px;
   color: black;
 
   min-height: 53vh;
 }
+
 .p-1 {
   padding: -3.75rem !important;
   font-size: 17px;
