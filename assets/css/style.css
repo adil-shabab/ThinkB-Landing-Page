@@ -933,6 +933,12 @@ padding: 20px;
     margin-bottom: 10px;
    
   }
+  .review h6 {
+    font-size: 19px;
+  }
+  .review p {
+    font-size: 14px;
+  }
   .faq-scetion .pera {
     font-size: 17px;
   }
