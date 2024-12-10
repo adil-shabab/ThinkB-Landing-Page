@@ -808,9 +808,8 @@ padding: 20px;
     font-size: 23px;
   }
   .foter-section-main {
-    background-color: ur;
-    padding: 20px 16px 0px;
-    /* margin-top: 80px; */
+    padding: 13px 17px 0px;
+    margin-top: 40px;
   }
   .our_services .our {
     font-family: "Questrial", serif;
@@ -914,6 +913,9 @@ padding: 20px;
     align-items: center;
     text-align: center;
     padding: 7px;
+  }
+  .background-call{
+    padding: 9px;
   }
   .porto {
     font-family: "Questrial", serif;
