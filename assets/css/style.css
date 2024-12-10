@@ -104,6 +104,30 @@
 
   min-height: 53vh;
 }
+.logo-slider {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.logos-slide {
+  display: flex;
+  animation: slide 3s linear infinite; /* Reduced duration for faster speed */
+}
+
+.logos-slide img {
+  width: 150px; /* Adjust size as needed */
+  margin: 0 10px; /* Space between logos */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Move completely out of view */
+  }
+}
 
 .p-1 {
   padding: -3.75rem !important;
