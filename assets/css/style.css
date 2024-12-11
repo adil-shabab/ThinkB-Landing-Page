@@ -488,7 +488,7 @@ button.submit:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  padding-top: 40px;
+  padding-top: 64px;
   padding-top: 18px;
   padding-bottom: 20px;
   text-align: center;
@@ -990,11 +990,13 @@ padding: 20px;
     margin-bottom: 10px;
     /* margin: 8px; */
   }
+  
   .review {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 7px;
+   
+    padding: 18px 16px
   }
   .background-call{
     padding: 9px;
@@ -1102,7 +1104,8 @@ padding: 20px;
     font-size: calc(1.25rem + .3vw);
     margin-top: 5px;
     font-family: "Questrial", serif;
-    font-size: 15px;
+
+    font-size: 17px;
 }
   .our-portofilo h4 {
     font-size: 25px;

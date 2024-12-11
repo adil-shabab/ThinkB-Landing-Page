@@ -69,3 +69,6 @@ function scrollToTop() {
 function scrollToBox() {
   document.getElementById("quote-box").scrollIntoView({ behavior: "smooth" });
 }
+
+
+
