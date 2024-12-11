@@ -50,43 +50,45 @@
         </header>
 
         <main>
-            <div class="hero_section">
+            <div class="hero_section" id="quote-box">
                 <div class="container">
-                    <div class="main-section">
-                        <div class="row d-flex align-items-center justify-content-center">
-                            <div class="col-md-6 left_section">
-                                <h1 class="head_font">Bangalore’s Leading Web Development Agency</h1>
-                                <p>As a Web Development Agency in Bangalore, we build custom websites that enhance your online presence and drive business growth. We’re a team of creative thinkers, and tech enthusiasts, who develop websites and applications tailored to your business goals.</p>
-                                
+                  <div class="main-section">
+                    <div class="row d-flex align-items-center justify-content-center">
+                      <div class="col-md-6 left_section">
+                        <h1 class="head_font">Bangalore’s Leading Web Development Agency</h1>
+                        <p>
+                          As a Web Development Agency in Bangalore, we build custom websites that enhance your online presence and drive business growth. We’re a team of creative thinkers and tech enthusiasts who develop websites and applications tailored to your business goals.
+                        </p>
+                      </div>
+                      <div class="col-md-6 right_section">
+                        <form action="">
+                          <div class="row">
+                            <div class="col-12">
+                              <input type="text" placeholder="Name" class="form-control" required>
                             </div>
-                            <div class="col-md-6 right_section">
-                                <form action="">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <input type="text" placeholder="Name">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="email" placeholder="Email">
-                                        </div>
-                                        <div class="col-md-6">
-                                            <input type="tel" placeholder="Phone Number">
-                                        </div>
-                                        <div class="col-md-12">
-                                            <input type="tel" placeholder="Budget">
-                                        </div>
-                                        <div class="col-md-12">
-                                            <textarea name="message" id="" placeholder="Project Outline"></textarea>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <button class="mt-0 submit">Get a quote!</button>
-                                        </div>
-                                    </div>
-                                </form>
+                            <div class="col-md-6">
+                              <input type="email" placeholder="Email" class="form-control" required>
                             </div>
-                        </div>
+                            <div class="col-md-6">
+                              <input type="tel" placeholder="Phone Number" class="form-control" required>
+                            </div>
+                            <div class="col-md-12">
+                              <input type="text" placeholder="Budget" class="form-control">
+                            </div>
+                            <div class="col-md-12">
+                              <textarea name="message" placeholder="Project Outline" class="form-control" rows="4"></textarea>
+                            </div>
+                            <div class="col-md-12">
+                              <button class="mt-0 submit btn btn-primary">Get a quote!</button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>
+              </div>
+              
 
 
             <div class="our_clients">
@@ -205,7 +207,7 @@
                     <p>With our projects we have built meaningful partnerships.</p>
             </div>
             <div class="col-md-4">
-                <h1 class="five-hander">50000+</h1>
+                <h1 class="five-hander">5000+</h1>
                  <h6>Coding Hours</h6>
                  <p>We craft flawless websites with precision and expertise</p>
             </div>
@@ -394,10 +396,13 @@
                     </div>
                     <div class="col-md-4">
                         <div class="d-flex flex-column align-items-center">
-                          <button class="btn bg-white text-dark rounded-  button-cal">Get a Quote</button>
-                          <p class="d-flex align-items-center p-3">
-                            Call Now <i class="bi bi-arrow-right custom-paddign"></i>
-                          </p>
+                            <button class="btn bg-white text-dark rounded- button-cal" onclick="scrollToBox()">Get a Quote</button>
+                            <p class="d-flex align-items-center p-3 custom-gap">
+                                <a href="#" onclick="scrollToTop()" class="d-flex align-items-center text-decoration-none text-white">
+                                  Call Now <i class="bi bi-arrow-right custom-padding ml-3"></i>
+                                </a>
+                              </p>
+                              
                           
                         </div>
                       </div>

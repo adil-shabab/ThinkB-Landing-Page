@@ -63,3 +63,9 @@ toggleButtons.forEach((button, index) => {
 });
 
 
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+function scrollToBox() {
+  document.getElementById("quote-box").scrollIntoView({ behavior: "smooth" });
+}
