@@ -246,6 +246,9 @@ button.submit:hover {
     margin-bottom: 52px;
     text-align: justify;
 }
+.faq-scetion .left-section-faq{
+  padding-top: 10px;
+}
 .hero_section .right_section form{
   background-color: #e6e7e6;
   padding: 9px 12px;
